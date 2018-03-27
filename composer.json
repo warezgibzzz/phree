@@ -1,12 +1,14 @@
 {
   "name": "gibz/phree",
-  "description": "",
+  "description": "Tree library.",
   "type": "library",
   "license": "MIT",
+  "keywords": ["tree","prefix"],
+  "homepage": "https://github.com/warezgibzzz/phree",
   "authors": [
     {
       "name": "Pavel S. Poronko",
-      "email": "me@gibzzz.tk"
+      "email": "warzgibz@gmail.com"
     }
   ],
   "autoload": {
@@ -14,5 +16,7 @@
       "Gibz\\Phree\\": "src/"
     }
   },
-  "require": {}
+  "require": {
+    "php": ">=5.4.0"
+  }
 }
